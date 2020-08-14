@@ -9,7 +9,7 @@ describe('add 関数のテスト', function () {
     expect(add(1, 4)).toBe(5);
   });
 
-  it('10 + 2 は 12', function () {
-    expect(add(10, 2)).toBe(15); // わざと失敗させている
-  });
+  // it('10 + 2 は 12', function () {
+  //   expect(add(10, 2)).toBe(15); // わざと失敗させている
+  // });
 });
