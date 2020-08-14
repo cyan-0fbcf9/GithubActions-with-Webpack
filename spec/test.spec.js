@@ -10,6 +10,6 @@ describe('add 関数のテスト', function () {
   });
 
   it('10 + 2 は 12', function () {
-    expect(add(10, 2)).toBe(12); // わざと失敗させている
+    expect(add(10, 2)).toBe(15); // わざと失敗させている
   });
 });
