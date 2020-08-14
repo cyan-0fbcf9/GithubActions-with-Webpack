@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx jasmine spec/test.spec.js",
     "build": "webpack --mode=development",
     "start": "webpack-dev-server --mode=development --open"
   },
@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^4.2.1",
+    "jasmine": "^3.6.1",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.3",
     "style-loader": "^1.2.1",
